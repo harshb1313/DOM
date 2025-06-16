@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+}
+
+#card {
+    border-radius: 10px;
+    height: 60vh;
+    width: 20vw;
+    background-color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.profile .cancel{
+     height: 25px;
+    padding: 5px 5px;
+    color: white;
+    background-color: rgb(238, 47, 47);
+    border-radius: 5px;
+}
+
+.profile button{
+    height: 25px;
+    padding: 5px 5px;
+    color: white;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+.profile h1{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.profile h2{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.container{
+    position: relative;
+}
+
+.container i{
+    font-size: 70px;
+    color: rgb(235, 13, 102);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: all ease 0.3s;
+
+}
+
+.container img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.icon {
+    margin-top: 10px;
+    height: 5vh;
+    width: 100%;
+    
+}
+
+.icon i{
+    font-size: 25px;
+}
+
+
